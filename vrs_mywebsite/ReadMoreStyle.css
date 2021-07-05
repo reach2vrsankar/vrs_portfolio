@@ -1,0 +1,52 @@
+:root{
+	--mainColor:#46344E;
+	--secondaryColor:#382a3f;
+
+	--borderColor:#1d1520;
+
+	--mainText:#fff;
+	--secondaryText:#eeeeee;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgb(29, 21, 32, 0.8);
+	--previewShadow:#2b202f;
+
+
+	--buttonColor:#8534a3;
+
+
+}
+
+
+html,body{
+    background-color:white;
+	
+
+	}
+.s1{
+	background-color: var(--mainColor);
+	border-bottom:1px solid var(--borderColor);
+	overflow:auto;
+	color:var(--mainText);
+}
+.post{
+	border:1px solid var(--borderColor);
+	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+}
+
+.thumbnail{
+	display: block;
+	width: 100%;
+	height:300px;
+	object-fit: cover;
+}
+.post-wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 420px);
+	gap:20px;
+	justify-content: left;
+	padding-bottom: 50px;
+}
